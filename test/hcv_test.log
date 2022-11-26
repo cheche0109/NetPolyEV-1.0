@@ -1,0 +1,32 @@
+### THE INITIAL STATUS ### 
+The initial vaccine is: HSKKKCDELldGPRLGVRATgfhCVNGVCWTVILAGYGAGVnvrawCINGVCWTVgpqeDLMGYIPLVvATDALMTGYALYDVVTKLndgaARMILMTHFtlegGLQDCTMLV
+The number of neo-epitopes before the GS:  4
+selected epitopes: HLA-A*02:01 | ILAGYGAGV | 0.258
+selected epitopes: HLA-A*02:01 | DLMGYIPLV | 0.170
+selected epitopes: HLA-A*02:01 | ALYDVVTKL | 0.004
+selected epitopes: HLA-A*02:01 | GLQDCTMLV | 0.165
+selected epitopes: HLA-A*01:01 | ATDALMTGY | 0.007
+selected epitopes: HLA-B*07:02 | GPRLGVRAT | 0.278
+selected epitopes: HLA-B*08:01 | HSKKKCDEL | 0.240
+
+neo epitopes: HLA-A*02:01 | LLDGPRLGV | 0.237
+neo epitopes: HLA-A*02:01 | KLNDGAARM | 0.287
+neo epitopes: HLA-B*51:01 | DALMTGYAL | 0.314
+neo epitopes: HLA-B*35:01 | GPQEDLMGY | 0.138
+
+
+
+### AFTER THE ALGORITHM 1 ### 
+The optimized vaccine after GS: HSKKKCDELlasvCVNGVCWTVtfvALYDVVTKLARMILMTHFGPRLGVRATCINGVCWTVinmltILAGYGAGVkpnlGLQDCTMLVseATDALMTGYedymDLMGYIPLV
+The number of neo-epitopes after GS:  0
+selected epitopes: HLA-A*02:01 | ALYDVVTKL | 0.004
+selected epitopes: HLA-A*02:01 | ILAGYGAGV | 0.258
+selected epitopes: HLA-A*02:01 | GLQDCTMLV | 0.165
+selected epitopes: HLA-A*02:01 | DLMGYIPLV | 0.170
+selected epitopes: HLA-A*01:01 | ATDALMTGY | 0.007
+selected epitopes: HLA-B*07:02 | GPRLGVRAT | 0.278
+selected epitopes: HLA-B*08:01 | HSKKKCDEL | 0.240
+
+Time(mins) for the GS: 10.799713551998138
+
+

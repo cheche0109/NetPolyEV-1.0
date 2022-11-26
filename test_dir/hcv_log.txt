@@ -1,0 +1,32 @@
+### Randomly produced the initial vaccine ###
+Polytope vaccine with 4 neo-epitopes: HSKKKCDELldGPRLGVRATgfhCVNGVCWTVILAGYGAGVnvrawCINGVCWTVgpqeDLMGYIPLVvATDALMTGYALYDVVTKLndgaARMILMTHFtlegGLQDCTMLV
+Table1. Presented peptides in the selected-epitopes
+Alleles  |  Epi  |  %Rank
+HLA-A*02:01 | ILAGYGAGV | 0.258
+HLA-A*02:01 | DLMGYIPLV | 0.170
+HLA-A*02:01 | ALYDVVTKL | 0.004
+HLA-A*02:01 | GLQDCTMLV | 0.165
+HLA-A*01:01 | ATDALMTGY | 0.007
+HLA-B*07:02 | GPRLGVRAT | 0.278
+HLA-B*08:01 | HSKKKCDEL | 0.240
+
+Table2. Presentation of neo-epitopes
+Alleles  |  Epi  |  %Rank
+HLA-A*02:01 | LLDGPRLGV | 0.237
+HLA-A*02:01 | KLNDGAARM | 0.287
+HLA-B*51:01 | DALMTGYAL | 0.314
+HLA-B*35:01 | GPQEDLMGY | 0.138
+
+### Optimized vaccine after the greedy search ###
+Polytope vaccine with 0 neo-epitopes: HSKKKCDELlasvCVNGVCWTVtfvALYDVVTKLARMILMTHFGPRLGVRATCINGVCWTVinmltILAGYGAGVkpnlGLQDCTMLVseATDALMTGYedymDLMGYIPLV
+Table1. Presented peptides in the selected-epitopes
+Alleles  |  Epi  |  %Rank
+HLA-A*02:01 | ALYDVVTKL | 0.004
+HLA-A*02:01 | ILAGYGAGV | 0.258
+HLA-A*02:01 | GLQDCTMLV | 0.165
+HLA-A*02:01 | DLMGYIPLV | 0.170
+HLA-A*01:01 | ATDALMTGY | 0.007
+HLA-B*07:02 | GPRLGVRAT | 0.278
+HLA-B*08:01 | HSKKKCDEL | 0.240
+
+Running time is: 10mins
