@@ -1,7 +1,7 @@
 # NetPolyEV-1.0
 Construction the polytope vaccines and filter the MHC-peptide binding by applying NetMHCpan-4.1
 ## Webserver
-    https://services.healthtech.dtu.dk/service.php?NetPolyEV-1.0
+    https://services.healthtech.dtu.dk/services/NetPolyEV-1.0/
 ## Contributor
     Supervisor: Morten Nielsen (morni@dtu.dk)
     Student: Chen Chen (chenchenus2020@outlook.com)
