@@ -69,16 +69,16 @@ def write_o(save_dir, epitopes_list, vaccine, alleles, netMHCpan_path, output_fi
     for line in output.stdout.split("\n"):
         need_info = []
         result = re.search(r'\s+\d{1,}',line)
-        if (result is not None) and (line.endswith('SB')):
+        if (result is not None) and (line.endswith('B')):
             line_list = line.strip().split()
             line_peptide = line_list[2]
             result = next((True for epitope in epitopes_list if line_peptide in epitope), False)
             need_info.append(line_list[1])
             need_info.append(line_list[2])
             need_info.append(line_list[12])
-            if result is False: 
+            if result is False and line.endswith('SB'): 
                 neo_list.append(' | '.join(need_info))
-            else:
+            if result is True:
                 candidate_list.append(' | '.join(need_info))
 
     outfile = open(save_dir + '/' + output_file, 'a')
