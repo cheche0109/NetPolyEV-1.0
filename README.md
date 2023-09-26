@@ -7,7 +7,7 @@ Construction the polytope vaccines and filter the MHC-peptide binding by applyin
     Student: Chen Chen (chenchen0109cc@gmail.com)
 ## INSTALLATION
     Python > 3.5
-    NetMHCpan-4.1 ([if result is False](https://services.healthtech.dtu.dk/services/NetMHCpan-4.1/))
+    NetMHCpan-4.1 (https://services.healthtech.dtu.dk/services/NetMHCpan-4.1/)
     Need to change netmhcpan path in main.py
 ## RUNNING
     python main.py
